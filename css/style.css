@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-image: url(../images/header.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fffefe;
+    position: relative;
+    padding: 0;
+    margin: 0px 8px;
+}
+.navbar-light .navbar-nav .nav-link::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #008ed6;
+    height: 2px;
+    width: 0%;
+    transition: .4s all ease-in-out;
+
+     
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 47%;
+}
+.navbar-light .navbar-nav .nav-link::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #008ed6;
+    height: 2px;
+    width: 0%;
+    transition: .4s all ease-in-out;
+
+     
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 47%;
+
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fffefe;
+}
+
+
+header h5{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #008ed6;
+    margin-bottom: 10px;
+}
+header h1{
+
+color: #fff;
+
+font-size: 48px;
+
+margin-bottom: 21px;
+}
+header p{
+
+color: #999999;
+
+font-size: 16px;
+
+margin-bottom: 45px;
+}
+
+.btn-download{
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #008ed6;
+    background-color: #008ed6;
+    padding: 0;
+    padding: 10px 20px;
+    margin-right: 15px;
+}
+.btn-features{
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #999999;
+    padding: 0;
+    padding: 10px 20px;
+    
+}
+.btn-download:hover, .btn-features:hover{
+    color: #fff;
+    background-color: #008ed6;
+}
+.height{
+    min-height: 90vh;
+    align-items: center;
+}
+.phone{
+    position: absolute;
+    bottom: 0;
+    left: 59%;
+}
+.feature p{
+
+color: #008ed6;
+
+margin-top: 45px;
+
+text-transform: uppercase;
+
+font-size: 14px;
+
+font-weight: bold;
+}
+.feature h2{
+    
+margin-bottom: 77px;
+    
+font-size: 36px;
+    
+color: #1a1a1a;
+}
+.icon h4{
+
+font-size: 24px;
+
+margin-top: 24px;
+
+color: #1a1a1a;
+}
+.icon p{
+    
+margin: 0;
+    
+color: #999999;
+    
+font-weight: normal;
+    
+font-size: 13px;
+    
+margin-top: 14px;
+}
+.icons{
+    
+font-size: 36px;
+    
+color: #008ed6;
+}
+.device p{
+
+color: #008ed6;
+
+text-transform: uppercase;
+
+margin-top: 144px;
+
+font-size: 14px;
+
+font-weight: bold;
+}
+.device h2{
+
+margin-bottom: 56px;
+
+font-size: 36px;
+color: #1a1a1a;
+}
+.device h5{
+
+font-size: 16px;
+
+color: #999999;
+
+margin-bottom: 30px;
+}
+.device ul{
+
+list-style: none;
+
+font-size: 16px;
+
+font-weight: normal;
+
+padding: 0;
+}
+.device ul li{
+
+}
+.device ul li i{
+
+border: 5px solid transparent;
+
+height: 30px;
+
+width: 29px;
+color: #008ed6;
+}
+.iphone{
+    position: absolute;
+    left: 17%;
+    top: 0%;
+    transform: translate(-17%, 0%);
+}
+.device{
+    position: relative;
+    min-height: 78vh;
+    margin-top: 140px;
+}
+.customize p{
+    color: #008ed6;
+
+text-transform: uppercase;
+
+margin-top: 144px;
+
+font-size: 14px;
+
+font-weight: bold;
+
+}
+.customize h2{
+    margin-bottom: 56px;
+
+font-size: 36px;
+color: #1a1a1a;
+    
+}
+.customize h5{
+    font-size: 16px;
+
+color: #999999;
+
+margin-bottom: 30px;
+    
+}
+.customize{
+    background-color: #f2f2f2;
+    position: relative;
+    min-height: 60vh;
+}
+.lay{
+    position: absolute;
+    left: 62%;
+    top: 10%;
+}
